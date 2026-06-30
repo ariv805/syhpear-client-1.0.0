@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "com.syhpear.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "GameRendererMixin",
+    "InGameHudMixin",
+    "WorldRendererMixin",
+    "EntityRendererMixin",
+    "MinecraftClientMixin",
+    "ChatScreenMixin",
+    "MouseMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

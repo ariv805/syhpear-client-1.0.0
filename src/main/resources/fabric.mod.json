@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "syhpear",
+  "version": "${version}",
+  "name": "Syhpear Client",
+  "description": "Performance Meets Simplicity — A premium Minecraft Java Edition client focused on high FPS, modern UI, and stability.",
+  "authors": [
+    "SyhpearDev"
+  ],
+  "contact": {
+    "homepage": "https://syhpear.client",
+    "sources": "https://github.com/syhpear/syhpear-client"
+  },
+  "license": "MIT",
+  "icon": "assets/syhpear/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.syhpear.client.SyhpearClient"
+    ]
+  },
+  "mixins": [
+    "syhpear.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": ">=1.21",
+    "java": ">=21"
+  },
+  "suggests": {
+    "zalith-launcher": "*"
+  }
+}
